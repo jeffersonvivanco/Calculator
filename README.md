@@ -11,8 +11,11 @@ and determines their value. Each expression is on its own line. As the second co
 Program Files: 
 
 Calculator.java: This class provides the main method. This class is responsible for reading the input file and creating an                    output file and writing the results on it. 
+
 ExpressionTools.java: This class provides the methods for infix to postfix conversion and to evaluate the postfix                                  expressions. 
+
 MyStack.java: This class provides a referenced based inplementation of a stack. 
+
 PostFixException.java: This class represents the exception that should be thrown when errors in the expression occur. 
 
 Sample input file: You may use this file to test out the program--> desExpressions.txt 
