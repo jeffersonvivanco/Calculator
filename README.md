@@ -3,9 +3,13 @@
 Program Description: 
 
 This program is a backend for a very simple calculator. The program takes in an input file (first command line argument) with mathematical expressions such as:
+
 23 - 2 * 5
+
 4 - 9 * 11 + 155 * ( 21 - 17 ) / 3
+
 ( ( 15 / ( 7 - ( 1 + 1 ) ) ) - ( 2 + ( 1 + 1 ) ) 
+
 and determines their value. Each expression is on its own line. As the second command line argument the program takes in the name of the output file. The program prints out to the output file whether an expression was valid or invalid. The program evaluates the mathematical expressions by converting them from an infix expression to a postfix expression. 
 
 Program Files: 
